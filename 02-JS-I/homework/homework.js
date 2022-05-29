@@ -74,10 +74,10 @@ function sonIguales(x, y) {
   }
   else{
     return false
-  }
+  } 
 
 
-  
+    
 }
 
 function tienenMismaLongitud(str1, str2) {
@@ -95,7 +95,7 @@ function menosQueNoventa(num) {
   // Tu código:
   if (num < 90 ) {
     return true
-  }
+  }  
   else {
     return false
   }
