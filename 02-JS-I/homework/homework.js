@@ -10,10 +10,10 @@ const nuevoNum = 2;
 const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - null === 10;
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * null === 0 ;
+const nuevaMultiplicacion = 10 * 2 === 20 ;
 
 // Resuelve el siguiente problema matemático:
 const nuevoModulo = 21 % 5 === 1;
@@ -26,20 +26,21 @@ const nuevoModulo = 21 % 5 === 1;
 // No cambies los nombres de las funciones.
 
 function devolverString(str) {
-  return str
+  
   // "Return" la string provista: str
   // Tu código:  
+  return str
 
   
 }
 
 function suma(x, y) {
-  suma = x + y 
-  return suma
-
+ 
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
+   suma = x + y 
+  return suma
   
 }
 
